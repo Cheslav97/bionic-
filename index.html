@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <title>Bionic+</title>
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+   <script defer src="calculator.js"></script>
+</head>
+
+<body>
+   <div class="logo">BIONIC+</div>
+   <div class="header">
+
+      <nav>
+         <ul class="nav">
+            <li><a href="#">ГЛАВНАЯ</a></li>
+            <li><a href="#">КОНВЕРТЕР</a></li>
+            <li><a href="#">КОНТАКТЫ</a></li>
+            <li><a href="#">ОТЗЫВЫ</a></li>
+         </ul>
+      </nav>
+         
+      <div class="container">
+         <h2>конвертер</h2>
+         <form>
+            <div class="inputBox">
+               <input type="text" required="required">
+               <span>населенный пункт</span>
+            </div>
+            <div class="inputBox">
+               <input type="text" required="required">
+               <span>ягода, гриб</span>
+            </div>
+            <div class="inputBox">
+               <input type="text" id='mas' required="required">
+               <span>сумма за 1кг</span>
+            </div>
+            <div class="inputBox">
+               <input type="text" id='brutto' required="required">
+               <span>масса брутто</span>
+            </div>
+            <div class="inputBox">
+               <input type="text" id='tara' required="required">
+               <span>тара</span>
+            </div>
+            <div class="inputBox">
+               <input type="submit" id='calculate' value="Рассчитать">
+            </div>
+
+            <div class="final-title" id='out'>0.00 руб.</div>
+            <div class="pay">К ОПЛАТЕ :</div>
+
+
+      </div>
+      </form>
+   </div>
+   </div>
+</body>
+
+</html>
