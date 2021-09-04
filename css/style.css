@@ -3,6 +3,7 @@ body {
   margin: 15px;
   padding: 0px;
   font-size:18px;
+  background-repeat: no-repeat;
   background-color: rgb(253, 252, 252);
   font-family: 'Lato', sans-serif;
   background-image: url("img/fon.png") ; 
