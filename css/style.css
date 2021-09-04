@@ -140,15 +140,17 @@ ul:hover li a:hover {
   top: -147px;
 }
 
-.pay {
+.final-title {
+  font-size: 30px;
   position: relative;
-  left: 459px;
-  top: -174px;
-  border-left: 5px solid  rgba(15, 63, 5, 0.788);
-  padding-left: 10px;
+  left: 334px;
+  top: -75px;
 }
 
-.raise-rice {
+.pay {
   position: relative;
-  margin-left: 495px;
+  border-left: 5px solid  rgba(15, 63, 5, 0.788);
+  padding-left: 10px;
+  left: 219px;
+  top: -101px;;
 }
